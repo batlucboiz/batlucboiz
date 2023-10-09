@@ -1,0 +1,80 @@
+.register{
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+}
+.register:hover{
+opacity: 1;
+}
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+body {
+    color:blue;
+    background-color:aliceblue;
+    background-image: url(images/1033414.jpg);
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+
+}
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff; 
+}
+header{
+    height: 170px;
+}
+h1{
+     width: 250px;
+	height: 100px;
+	margin: 0px;}
+	nav, footer {
+	clear: both;
+	color: #ffffff;
+	background-color:aqua ;
+	height: 20px;}
+nav ul {
+    margin: 0px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+nav li a {
+    color:black;}
+    nav li a:hover, nav li a.current {
+        color: #000000;}
+        article {
+            clear: both;
+            overflow: auto;
+            width: 100%;}
+            hgroup {
+				margin-top: 40px;
+                
+            }
+                figure {
+                    float: left;
+                    width: 290px;
+                    height: 220px;
+                    padding: 5px;
+                    margin: 20px;
+                    border: 1px solid #eeeeee;}
+                    figcaption {
+                        font-size: 90%;
+                        text-align: left;}
+
+form, table{
+    color:#ffffff
+}
+
+
+    
+
